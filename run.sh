@@ -1,0 +1,1 @@
+docker run -dit -v ./public-html:/usr/local/apache2/htdocs/ --name htmld -p 8080:80 my-apache2
